@@ -1,0 +1,63 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.conversor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  background-color: lightsalmon;
+  max-width: 29rem;
+  width: 100%;
+}
+
+.titulo {
+  color: whitesmoke;
+  padding: 1.5rem 0rem;
+  text-align: center;
+}
+
+label {
+  color: black;
+}
+
+.titulo-cantidad,
+.titulo-moneda {
+  font-size: larger;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+input[placeholder="Ingrese el monto en CLP"],
+select {
+  text-align: center;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#buscar {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  width: 100%;
+  cursor: pointer;
+}
+
+#resultado {
+  font-size: larger;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
